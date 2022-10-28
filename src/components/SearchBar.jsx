@@ -6,6 +6,7 @@ const SearchBar = () => {
 
   return (
     <section className=" section search">
+      <p className='search-text'>Type here ⤵ </p>
       <form action="" onSubmit={e => e.preventDefault()}>
         <input
           type="text"
